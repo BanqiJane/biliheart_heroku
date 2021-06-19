@@ -1,1 +1,2 @@
- web: node app.js -p 3000
+ worker: node app.js
+worker: npm start

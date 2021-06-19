@@ -1,6 +1,5 @@
 #!/bin/sh
 
-npm install -g foreman
 # Download and install heart
 mkdir /tmp/bilih
 wget -q https://github.91chifun.workers.dev/https://github.com/lkeme/bilibili-pcheartbeat/archive/refs/heads/master.zip -O /tmp/bilih/heart.zip
