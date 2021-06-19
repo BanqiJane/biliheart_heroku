@@ -6,8 +6,6 @@ RUN apk add --no-cache ca-certificates unzip wget \
  && chmod +x /configure.sh
  
 RUN apk update && \
-    apk add --update nodejs 
-
-RUN apk add --update npm 
+    apk add --update nodejs nodejs-npm
 
 CMD /configure.sh
