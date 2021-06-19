@@ -1,1 +1,1 @@
-web: node app.js
+web: node /tmp/bilih/bilibili-pcheartbeat-master/app.js
