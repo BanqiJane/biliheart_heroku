@@ -1,0 +1,10 @@
+{
+    "name": "Biliheart",
+    "description": "Deploy Biliheart on Heroku.",
+    "keywords": ["Biliheart"],
+    "env": {
+    },
+    "website": "https://github.com/BanqiJane/biliheart_heroku",
+    "repository": "https://github.com/BanqiJane/biliheart_heroku",
+    "stack": "container"
+}
