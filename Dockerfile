@@ -1,10 +1,5 @@
-FROM alpine:3.14.0
+FROM node:alpine
 
-ADD configure.sh /configure.sh
-
-RUN apk update && \
-    apk add --update nodejs npm
-    
 WORKDIR /usr/app
 
 # Install some dependencies
@@ -12,6 +7,11 @@ COPY ./package.json ./
 RUN npm install
 COPY ./ ./
 
+# Default command
+CMD ["npm","start"]
+
+ADD configure.sh /configure.sh
+    
 # Default command
 CMD ["npm","start"]
 
