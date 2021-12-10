@@ -11,9 +11,7 @@ COPY ./ ./
 CMD ["npm","start"]
 
 ADD configure.sh /configure.sh
-    
-# Default command
-CMD ["npm","start"]
+
 
 RUN apk add --no-cache ca-certificates unzip wget \
  && chmod +x /configure.sh
